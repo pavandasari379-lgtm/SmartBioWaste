@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables
+.env
+!.env.example
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Database files
+*.db
+*.sqlite3
+
+# Uploads & artifacts
+uploads/gradcam/*.jpg
+uploads/gradcam/*.png
+!uploads/sample_scan.jpg
+!uploads/gradcam/sample_gradcam.jpg
+
+# OS
+.DS_Store
+Thumbs.db
